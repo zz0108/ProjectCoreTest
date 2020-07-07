@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Sennheiser",
+    "image": "../Asset/img/categories/Sennheiser.png"
+  },
+  {
+    "title": "BeyerDynamic",
+    "image": "../Asset/img/categories/BeyerDynamic.png"
+  },
+  {
+    "title": "Audio-Technica",
+    "image": "../Asset/img/categories/Audio-Technica.jpg"
+  },
+  {
+    "title": "Shure",
+    "image": "../Asset/img/categories/Shure.jpg"
+  },
+  {
+    "title": "SONY",
+    "image": "../Asset/img/categories/SONY.png"
+  },
+  {
+    "title": "SkullyCandy",
+    "image": "../Asset/img/categories/SkullyCandy.png"
+  },
+  {
+    "title": "Beats",
+    "image": "../Asset/img/categories/Beats.png"
+  },
+  {
+    "title": "DENON",
+    "image": "../Asset/img/categories/DENON.png"
+  },
+  {
+    "title": "KOSS",
+    "image": "../Asset/img/categories/KOSS.jpg"
+  },
+  {
+    "title": "BOSE",
+    "image": "../Asset/img/categories/BOSE.png"
+  },
+  {
+    "title": "AKG",
+    "image": "../Asset/img/categories/AKG.jpg"
+  }
+]

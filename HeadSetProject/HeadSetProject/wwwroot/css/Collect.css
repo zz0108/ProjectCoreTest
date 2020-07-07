@@ -1,0 +1,64 @@
+.heart-button i{ 
+    position: absolute;
+   margin-top: 65%;
+    margin-left: 85%;
+    font-size: large;
+    color: #FF2400;
+   font-size: 150%;
+}
+    .heart-button i:hover {
+        cursor: pointer;
+        transition: .2s;
+        transform: scale(1.5);
+    }
+ 
+.Shop-card-products{
+    /* margin-left:2%; */
+    background-color: #e3e3e3;
+    /* justify-content: center; */
+
+}
+    .Shop-card-products h3 {
+        font-family: Microsoft JhengHei;
+        width: 95%;
+        text-align: center;
+        padding:1% 0% 1% 0%;
+        border-bottom:1px solid black;
+        margin:auto;
+    }
+    .card {
+        margin: 2%;
+    }
+.card-body{
+    text-align:center;
+}
+.card-body a {
+    color: black;
+}
+    .card-body :hover{
+        color: #517fa4;
+        
+    }
+
+        .card-body:hover {
+            transition: .2s;
+            transform: scale(1.2);
+        }
+    .product-cards {
+    display: flex;
+    /* justify-content: center; */
+    /* margin-left: 6.5%; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* background-color: antiquewhite; */
+}
+.card img{
+    margin-top: 8%;
+}
+
+
+@media (max-width: 767px) {
+    .Shop-card-products {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "Img": "../Asset/img/Product_img/AMIRON_HOME.jpg",
+    "Name": "AMIRON HOME",
+    "Price": 21750.00
+  },
+  {
+    "Img": "../Asset/img/Product_img/GSP_670.jpg",
+    "Name": "GSP 670",
+    "Price": 10900.00
+  },
+  {
+    "Img": "../Asset/img/Product_img/IE80_S.jpg",
+    "Name": "IE80 S",
+    "Price": 9900.00
+  }
+]

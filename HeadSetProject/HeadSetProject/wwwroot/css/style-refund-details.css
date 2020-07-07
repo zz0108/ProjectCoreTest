@@ -1,0 +1,223 @@
+/*---------------------
+  Refund_details_list
+-----------------------*/
+.refund_details_sidebar__item ul li a:hover {
+    color: #517fa4;
+}
+.refund_details_sidebar__item ul li:hover {
+    transform: scale(1.2);
+    transition: .2s;
+}
+.refund_details_item {
+    background-color: #e3e3e3;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.refund_details_item h4,
+.refund_details_item_reason_list p,
+.refund_details_item_product {
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
+}
+
+.refund_details_item h4,
+.refund_details_item_reason_text p,
+.refund_details_item_information li {
+    font-family: Microsoft JhengHei;
+}
+
+.refund_details_item__pic img {
+    min-width: 100%;
+}
+
+.refund_details_item__text {
+    padding-top: 25px;
+}
+
+.refund_details_item__text ul {
+    margin-bottom: 15px;
+}
+
+.refund_details_item__text ul li {
+    font-size: 16px;
+    color: #b2b2b2;
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.refund_details_item__text ul li:last-child {
+    margin-right: 0;
+}
+
+.refund_details_item__text h5 {
+    margin-bottom: 12px;
+}
+
+.refund_details_item__text h5 a {
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 700;
+}
+
+.refund_details_item__text p {
+    margin-bottom: 25px;
+}
+
+.refund_details_item__text .refund_details_btn {
+    display: inline-block;
+    font-size: 14px;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #b2b2b2;
+    padding: 14px 20px 12px;
+    border-radius: 25px;
+}
+
+.refund_details_item__text .refund_details_btn span {
+    position: relative;
+    top: 1px;
+    margin-left: 5px;
+}
+
+.refund_details_pagination {
+    padding-top: 5px;
+    position: relative;
+}
+
+.refund_details_pagination:before {
+    position: absolute;
+    left: 0;
+    top: -29px;
+    height: 1px;
+    width: 100%;
+    background: #000000;
+    opacity: 0.1;
+    content: "";
+}
+
+.refund_details_items ul {
+    list-style: none;
+}
+
+
+/* 
+/*---------------------
+    Refund_details Sidebar
+-----------------------*/
+
+.refund_details_sidebar__item {
+    margin-bottom: 50px;
+}
+
+.refund_details_sidebar__item h4 {
+    color: #1c1c1c;
+    font-weight: 700;
+}
+
+.refund_details_sidebar__item_navbar h4 {
+    width: 100%;
+    padding: 10px 25px 10px 30px;
+    color: white;
+    background-image: linear-gradient(to right, #517fa4 0%, #243949 100%);
+}
+
+.refund_details_sidebar__item {
+    background-color: #e3e3e3;
+}
+
+.refund_details_sidebar__item ul li {
+    list-style: none;
+}
+
+.refund_details_sidebar__item ul li a {
+    padding-right: 10%;
+    color: #666666;
+    line-height: 48px;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    -ms-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+}
+
+.refund_details_sidebar__search {
+    margin-bottom: 50px;
+}
+
+.refund_details_sidebar__search form {
+    position: relative;
+}
+
+.refund_details_sidebar__search form input {
+    width: 100%;
+    height: 46px;
+    font-size: 16px;
+    color: #6f6f6f;
+    padding-left: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+}
+
+.refund_details_sidebar__search form input::placeholder {
+    color: #6f6f6f;
+}
+
+.refund_details_sidebar__search form button {
+    font-size: 16px;
+    color: #6f6f6f;
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0px 18px;
+}
+
+.refund_details_sidebar__recent .refund_details_sidebar__recent__item {
+    display: block;
+}
+
+.refund_details_sidebar__recent .refund_details_sidebar__recent__item:last-child {
+    margin-bottom: 0;
+}
+
+.refund_details_sidebar__recent__item {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.refund_details_sidebar__recent__item__pic {
+    float: left;
+    margin-right: 20px;
+}
+
+.refund_details_sidebar__recent__item__text {
+    overflow: hidden;
+}
+
+.refund_details_sidebar__recent__item__text h6 {
+    font-weight: 700;
+    color: #333333;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.refund_details_sidebar__recent__item__text span {
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+.refund_details_sidebar__item__tags a {
+    font-size: 16px;
+    color: #6f6f6f;
+    background: #f5f5f5;
+    display: inline-block;
+    padding: 7px 26px 5px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}

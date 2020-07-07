@@ -1,0 +1,70 @@
+[
+    {
+        "id":"1",
+        "name":"WF-XB700",
+        "manufacturer":"SONY",
+        "country":"日本",
+        "type":"真無線藍牙入耳式",
+        "color":"藍",
+        "pictrue":"https://store.sony.com.tw/resource/product_files/WF-XB700/images/01.jpg",
+        "quantity":"10",
+        "price":"3,990",
+        "standard":[{
+            "endurance":"18個小時",
+            "buttontype":"按壓",
+            "chip":"5.0 版",
+            "anti-noise":"無",
+            "impedance":"無",
+            "sensitivity":"無",
+            "size":"耳機本體約 8g x 2  充電盒 46g",
+            "monomer":"12mm 封閉式動態",
+            "frequency":"20 Hz 至 20,000 Hz (44.1 kHz 取樣)"
+        }]
+    },
+    {
+        "id":"2",
+        "name":"WF-XB700",
+        "manufacturer":"SONY",
+        "country":"日本",
+        "type":"真無線藍牙入耳式",
+        "color":"黑",
+        "pictrue":"https://store.sony.com.tw/resource/product_files/WF-XB700/images/01.jpg",
+        "quantity":"11",
+        "price":"4,990",
+        "standard":[{
+            "endurance":"18個小時",
+            "buttontype":"按壓",
+            "chip":"5.0 版",
+            "anti-noise":"無",
+            "impedance":"無",
+            "sensitivity":"無",
+            "size":"耳機本體約 8g x 2  充電盒 46g",
+            "monomer":"12mm 封閉式動態",
+            "frequency":"20 Hz 至 20,000 Hz (44.1 kHz 取樣)"
+        }]
+       
+    },
+    {
+        "id":"3",
+        "name":"WF-XB700",
+        "manufacturer":"SONY",
+        "country":"日本",
+        "type":"真無線藍牙入耳式",
+        "color":"紅",
+        "pictrue":"https://store.sony.com.tw/resource/product_files/WF-XB700/images/01.jpg",
+        "quantity":"9",
+        "price":"5,990",
+        "standard":[{
+            "endurance":"18個小時",
+            "buttontype":"按壓",
+            "chip":"5.0 版",
+            "anti-noise":"無",
+            "impedance":"無",
+            "sensitivity":"無",
+            "size":"耳機本體約 8g x 2  充電盒 46g",
+            "monomer":"12mm 封閉式動態",
+            "frequency":"20 Hz 至 20,000 Hz (44.1 kHz 取樣)"
+        }]
+       
+    }
+]

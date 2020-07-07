@@ -1,0 +1,236 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="humberger__menu__overlay"></div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="/Home/Index"><img draggable="false" src="~/img/headset.png" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li class="active">
+                                <a href="/ShopGrid/Index/SHOP/0">Shop</a>
+                            </li>
+                            <li>
+                                <a href="#">All departments</a>
+                                <ul class="header__menu__dropdown">
+                                    <li><a asp-controller="ShopGrid" asp-action="Index">Sennheiser</a></li>
+                                    <li><a href="~/ShopGrid/Index/BeyerDynamic">BeyerDynamic</a></li>
+                                    <li><a asp-page="/ShopGrid/Index/Audio-Technica">Audio-Technica</a></li>
+                                    <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/Shure">Shure</a></li>
+                                    <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/SONY">SONY</a></li>
+                                    <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/SkullyCandy">SkullyCandy</a></li>
+                                    <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/Beats">Beats</a></li>
+                                    <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/DENON">DENON</a></li>
+                                    <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/KOSS">KOSS</a></li>
+                                    <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/BOSE">BOSE</a></li>
+                                    <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/AKG">AKG</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header__cart">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-heart"></i> <span class="collect_quantity">0</span></a></li>
+                            <li><a class="hov"><i class="fa fa-shopping-bag"></i><span class="shop-cart-products">0</span></a></li>
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a>
+                                </li>
+                                <li class="nav-item">
+                                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                        <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <div id="particles-js"></div>
+    <div class="body-particles"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="">
+                <img draggable="false" src="~/img/headset.png" />
+            </a>
+        </div>
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href=""><i class="fa fa-heart"></i> <span class="collect_quantity">0</span></a></li>
+                <li><a class="hov"><i class="fa fa-shopping-bag"></i> <span class="shop-cart-products">0</span></a></li>
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                        </form>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                    </li>
+                }
+            </ul>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="/Home/Index">Home</a></li>
+                <li><a href="/ShopGrid/Index/SHOP/0">Shop</a></li>
+                <li>
+                    <a href="#">All departments</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="/ShopGrid/Index/Sennheiser">Sennheiser</a></li>
+                        <li><a href="/ShopGrid/Index/BeyerDynamic">BeyerDynamic</a></li>
+                        <li><a href="/ShopGrid/Index/Audio-Technica">Audio-Technica</a></li>
+                        <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/Shure">Shure</a></li>
+                        <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/SONY">SONY</a></li>
+                        <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/SkullyCandy">SkullyCandy</a></li>
+                        <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/Beats">Beats</a></li>
+                        <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/DENON">DENON</a></li>
+                        <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/KOSS">KOSS</a></li>
+                        <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/BOSE">BOSE</a></li>
+                        <li><a asp-area="ShopGrid" asp-page="/ShopGrid/Index/AKG">AKG</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+    </div>
+
+    @RenderBody()
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html">
+                                <img draggable="false" src="~/img/headset.png" />
+                            </a>
+                        </div>
+                        <ul>
+                            <li>Address: 60-49 Road 11378 New York</li>
+                            <li>Phone: +65 11.188.888</li>
+                            <li>Email: hello@colorlib.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Useful Links</h6>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">About Our Shop</a></li>
+                            <li><a href="#">Secure Shopping</a></li>
+                            <li><a href="#">Delivery infomation</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Our Sitemap</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Innovation</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Join Our Newsletter Now</h6>
+                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Enter your mail">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    @*<script>
+            window.onload = function () {
+                var Json = {
+                    Clint_Id: $("#UserName").text()
+                }
+                $.ajax({
+                    url: '/Registered_Clint_/User_ProfileJS',
+                    type: 'post',
+                    data: { jdata: JSON.stringify(Json) },
+                    success: function () {
+                        //alert('成功')
+                    },
+                    error: function () {
+                    }
+                })
+
+            }
+        </script>*@
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,38 @@
+html,body{
+    background-color: black;
+}
+.order_list_sidebar__item ul li{
+    padding:0;
+}
+.collapse {
+    margin-bottom: 2%;
+}
+.btn-primary{
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.card-body{
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+}
+.btn-primary.focus, .btn-primary{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.btn-primary:hover{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+ .btn-primary:focus{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+

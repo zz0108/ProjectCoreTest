@@ -1,0 +1,415 @@
+.bill_container{
+    position:relative;
+}
+.bill_container * {
+    font-family: 微軟正黑體;
+}
+
+    .bill_container .oder {
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
+    }
+
+    .bill_container .course p {
+        margin-top: -3%;
+    }
+    .bill_container .oderitem,
+    .bill_container .odersend,
+    .bill_container .oderprice {
+        background-color: white;
+        color: black;
+        margin: auto;
+        margin-bottom: 20px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .bill_container .form-group {
+        padding-left: 3%;
+    }
+    .bill_container td,
+    .bill_container .itemprice {
+        padding: 0 15px 0 15px;
+    }
+
+    .bill_container tbody,
+    .bill_container .send,
+    .bill_container .senddata,
+    .bill_container .pricedata,
+    .bill_container .price {
+        padding-top: 13px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-bottom: 13px;
+        border-bottom: 0.5px gray solid;
+    }
+    .bill_container h4 {
+        width: 125px;
+        text-align: center;
+        background-color: #F44336;
+        padding: 2px 5px 2px 5px;
+        margin: 0;
+        border-bottom: 0.5px gray solid;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .bill_container table {
+      
+        font-size: 14px;
+    }
+
+    .bill_container thead {
+        background-color: #e9e3e3;
+    }
+
+    .bill_container .item {
+        width: 40%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .bill_container th:nth-child(1) {
+        padding-left: 9%;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        width: 40%;
+    }
+
+    .bill_container td:not(:nth-child(1)),
+    .bill_container th:not(:nth-child(1)) {
+        width: 20%;
+        text-align: center;
+    }
+
+    .bill_container .trborder + .trborder {
+        border-top: 1px solid #000;
+        padding-top: 10px;
+    }
+
+    .bill_container img {
+        width: 90%;
+    }
+
+    .bill_container .quantity {
+        padding: 0;
+        width: 100%;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bill_container .dis-end {
+        padding: 10px 15px;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .bill_container .sendbtn {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+  /* 購物流程圖 */
+    .bill_container .courses {
+        color: gray;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        padding-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .bill_container .course:not(:nth-last-child(1)) {
+        width: 100%;
+        display: flex;
+    }
+
+        .bill_container .course:not(:nth-last-child(1)) > .step {
+            border: 2px solid gray;
+            border-radius: 50%;
+            font-size: 12px;
+            width: 30px;
+            height: 25px;
+            text-align: center;
+            line-height: 20px;
+            align-self: center;
+        }
+
+    .bill_container .course:nth-last-child(1) > .step {
+        border: 2px solid gray;
+        border-radius: 50%;
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bill_container .course:nth-last-child(1) {
+        align-self: center;
+    }
+
+    .bill_container .coursep {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        font-size: 5px;
+        border-bottom: 2px gray solid;
+    }
+
+  /* 購物流程圖 */
+  /* 平板 */
+  @media screen and (min-width: 768px) {
+    .bill_container img {
+      width: 100%;
+    }
+
+    .bill_container .item {
+        display: flex;
+        width: 100%;
+    }
+
+    .bill_container th:nth-child(1) {
+        width: 50%;
+    }
+
+    .bill_container td:not(:nth-child(1)),
+    .bill_container th:not(:nth-child(1)) {
+        width: 20%;
+        text-align: center;
+    }
+
+    .bill_container .quantity {
+        padding: 0;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bill_container .btndiv > .btn {
+        width: 20%;
+    }
+
+    .bill_container .course:not(:nth-last-child(1)) > .step {
+        border: 2px solid gray;
+        border-radius: 50%;
+        font-size: 20px;
+        width: 50px;
+        height: 40px;
+        text-align: center;
+        line-height: 30px;
+        align-self: center;
+    }
+
+    .bill_container .course:nth-last-child(1) > .step {
+        border: 2px solid gray;
+        border-radius: 50%;
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bill_container .course:nth-last-child(1) {
+        align-self: center;
+    }
+
+    .bill_container .coursep {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        line-height: 2px;
+        font-size: 15px;
+        border-bottom: 2px gray solid;
+    }
+
+    /* 購物流程圖 */
+  }
+
+  /* 橫向平板 */
+  @media screen and (min-width: 992px) {
+    .bill_container img {
+        width: 100%;
+    }
+
+    .bill_container .item {
+        display: flex;
+        width: 100%;
+    }
+
+    .bill_container th:nth-child(1) {
+        width: 50%;
+    }
+
+    .bill_container td:not(:nth-child(1)),
+    .bill_container th:not(:nth-child(1)) {
+        width: 20%;
+        text-align: center;
+    }
+
+    .bill_container .quantity {
+        padding: 0;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bill_container .btndiv {
+        margin-bottom: 5%;
+    }
+
+        .bill_container .btndiv > .btn {
+            width: 20%;
+        }
+
+    .bill_container .course:not(:nth-last-child(1)) > .step {
+        border: 2px solid gray;
+        border-radius: 50%;
+        font-size: 20px;
+        width: 50px;
+        height: 40px;
+        text-align: center;
+        line-height: 30px;
+        align-self: center;
+    }
+
+    .bill_container .course:nth-last-child(1) > .step {
+        border: 2px solid gray;
+        border-radius: 50%;
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bill_container .course:nth-last-child(1) {
+        align-self: center;
+    }
+
+    .bill_container .coursep {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        line-height: 2px;
+        font-size: 15px;
+        border-bottom: 2px gray solid;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .bill_container img {
+        width: 100%;
+    }
+
+    .bill_container .item {
+        display: flex;
+        width: 100%;
+    }
+
+    .bill_container th:nth-child(1) {
+        width: 50%;
+    }
+
+    .bill_container td:not(:nth-child(1)),
+    .bill_container th:not(:nth-child(1)) {
+        width: 20%;
+        text-align: center;
+    }
+
+    .bill_container .quantity {
+        padding: 0;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bill_container .btndiv > .btn {
+        width: 20%;
+    }
+
+    .bill_container .course:not(:nth-last-child(1)) > .step {
+        border: 2px solid gray;
+        border-radius: 50%;
+        font-size: 25px;
+        width: 60px;
+        height: 50px;
+        text-align: center;
+        line-height: 40px;
+        align-self: center;
+    }
+
+    .bill_container .course:nth-last-child(1) > .step {
+        border: 2px solid gray;
+        border-radius: 50%;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bill_container .course:nth-last-child(1) {
+        align-self: center;
+    }
+
+    .bill_container .coursep {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        line-height: 2px;
+        font-size: 20px;
+        border-bottom: 2px gray solid;
+    }
+  }
+
+.bill_container .myButt {
+  margin-bottom:3%; 
+    outline: none;
+    border: none;
+    padding: 13px;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+    position: relative;
+    border: 2px solid #fff;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+.bill_container .five {
+    overflow: hidden;
+    color: #fff;
+}
+
+    .bill_container .five .layer {
+        color: #fff;
+        position: absolute;
+        top: -70px;
+        width: 100%;
+        left: 0;
+        padding: 13px 0;
+        background-color: #F44336;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+    }
+
+    .bill_container .five:hover .layer {
+        top: 0;
+    }

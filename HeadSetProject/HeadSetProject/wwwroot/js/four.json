@@ -1,0 +1,34 @@
+[
+  {
+    "Img": "../Asset/img/Product_img/GSP_670.jpg",
+    "Name": "Sennheiser GSP 670",
+    "Price": "$10900.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/WH_1000XM3.jpg",
+    "Name": "SONY WH-1000XM3",
+    "Price": "$10355.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/AMIRON_HOME.jpg",
+    "Name": "Beyerdynamic AMIRON HOME",
+    "Price": "$21750.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/N60NC_Wireless.jpg",
+    "Name": "AKG N60NC Wireless",
+    "Price": "$7900.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  }
+]

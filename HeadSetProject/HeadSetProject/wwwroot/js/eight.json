@@ -1,0 +1,98 @@
+[
+  {
+    "Img": "../Asset/img/Product_img/GSP_670.jpg",
+    "Name": "Sennheiser GSP 670",
+    "Price": "$10900.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/WH_1000XM3.jpg",
+    "Name": "SONY WH-1000XM3",
+    "Price": "$10355.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/AMIRON_HOME.jpg",
+    "Name": "Beyerdynamic AMIRON HOME",
+    "Price": "$21750.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/N60NC_Wireless.jpg",
+    "Name": "AKG N60NC Wireless",
+    "Price": "$7900.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/Studio3_Wireless.jpg",
+    "Name": "Beats Studio3 Wireless",
+    "Price": "$11900.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/KOSS_UR55.jpg",
+    "Name": "KOSS UR55",
+    "Price": "$1890.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/SHURE_Aonic50.jpg",
+    "Name": "SHURE Aonic50",
+    "Price": "$10990.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/Skullcandy_Crusher_ANC.jpg",
+    "Name": "Skullcandy Crusher ANC",
+    "Price": "$11690.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/T5P_2nd_generation.jpg",
+    "Name": "Beyerdynamic T5P 2nd generation",
+    "Price": "$39000.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/T1_2nd_generation.jpg",
+    "Name": "Beyerdynamic T1 2nd generation",
+    "Price": "$40000.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/MOMENTUM_True_Wireles.jpg",
+    "Name": "Sennheiser MOMENTUM True Wireles",
+    "Price": "$7990.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  },
+  {
+    "Img": "../Asset/img/Product_img/IE80_S.jpg",
+    "Name": "SENNHEISER  IE80 S",
+    "Price": "$9900.00",
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart"
+  }
+]

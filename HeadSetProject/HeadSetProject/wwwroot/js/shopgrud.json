@@ -1,0 +1,62 @@
+[
+  {
+    "Img": "../Asset/img/ShopGrud_M_Img/IER-M7.jpg",
+    "Discount": 0.8,
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart",
+    "Name": "SONY IER-M7",
+    "Category": "In ear",
+    "Price": 22000.00
+  },
+  {
+    "Img": "../Asset/img/ShopGrud_M_Img/Aventho_wireless.jpg",
+    "Discount": 0.8,
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart",
+    "Name": "Beyerdynamic Aventho wireless",
+    "Category": "Ear muffs",
+    "Price": 18900.00
+  },
+  {
+    "Img": "../Asset/img/ShopGrud_M_Img/HD_820.jpg",
+    "Discount": 0.8,
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart",
+    "Name": "SENNHEISER HD 820",
+    "Category": "Ear muffs",
+    "Price": 73900.00
+  },
+  {
+    "Img": "../Asset/img/ShopGrud_M_Img/AKG_N5005.jpg",
+    "Discount": 0.8,
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart",
+    "Name": "AKG N5005",
+    "Category": "In ear",
+    "Price": 39000.00
+  },
+  {
+    "Img": "../Asset/img/ShopGrud_M_Img/MOMENTUM_M2i.jpg",
+    "Discount": 0.8,
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart",
+    "Name": "SENNHEISER MOMENTUM M2i",
+    "Category": "Ear muffs",
+    "Price": 15800.00
+  },
+  {
+    "Img": "../Asset/img/ShopGrud_M_Img/IER_M9.jpg",
+    "Discount": 0.8,
+    "icon_heart": "fa fa-heart",
+    "icon_retweet": "fa fa-retweet",
+    "icon_shopping_cart": "fa fa-shopping-cart",
+    "Name": "SONY IER-M9",
+    "Category": "In ear",
+    "Price": 41000.00
+  }
+]

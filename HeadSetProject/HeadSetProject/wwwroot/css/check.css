@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    background-image: url('../img/redsqure2side.png')
+}
+
+.title img:hover {
+    content: url('../img/headset-white-hover2.png');
+    transition: .5s;
+}
+.checkbox{
+    text-align:left;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.loginForm{
+    min-width:75%;
+}
+.row {
+    background-image: url('..//img/redsqure2side.png');
+    /* display: inline-block; */
+    flex-direction: column;
+    margin: auto;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* background-color: white; */
+}
+.form-content{
+    width:84%;
+    text-align:left;
+}
+.form-group{
+    text-align:-webkit-center;
+}
+label{
+    display:unset;
+    width:100%;
+}
+.form-control {
+    background-color: rgb(226, 225, 223);
+}
+
+form {
+    margin: auto;
+    width: 35%;
+    font-size: 20px;
+    color: white;
+}
+
+.btn {
+    width: 100%;
+    font-size: 15px;
+}
+
+.alink {
+    padding-top: 5px;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* 平板 */
+
+@media screen and (min-width: 768px) {
+    .row {
+        flex-direction: column;
+        margin: auto;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+}
+
+
+/* 橫向平板 */
+
+@media screen and (min-width: 992px) {
+    .row {
+        margin: auto;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+    form {
+        width: 20%;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .row {
+        flex-direction: column;
+        margin: auto;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+    form {
+        margin: auto;
+        width: 35%;
+        font-size: 20px;
+        color: white;
+    }
+}
